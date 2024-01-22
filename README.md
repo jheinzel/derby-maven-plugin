@@ -12,7 +12,7 @@ Fork of <https://github.com/carlspring/derby-maven-plugin> created by Martin Tod
             <plugin>
                <groupId>io.github.jheinzel</groupId>
                <artifactId>derby-maven-plugin</artifactId>
-               <version>1.5</version>
+               <version>1.6</version>
                <configuration>
                    <derbyHome>${project.basedir}/data</derbyHome>
                    <port>1527</port>

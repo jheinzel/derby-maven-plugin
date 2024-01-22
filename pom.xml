@@ -5,7 +5,7 @@
 
   <groupId>io.github.jheinzel</groupId>
   <artifactId>derby-maven-plugin</artifactId>
-  <version>1.5</version>
+  <version>1.6</version>
   <packaging>maven-plugin</packaging>
 
   <name>Maven Derby Plugin</name>
@@ -37,18 +37,18 @@
   </scm>
 
   <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <derby.version>10.16.1.1</derby.version>
+    <derby.version>10.17.1.0</derby.version>
 
     <maven-plugin-api.version>3.8.7</maven-plugin-api.version>
-    <maven.plugin.version>3.7.1</maven.plugin.version>
+    <maven.plugin.version>3.11.0</maven.plugin.version>
     <maven-project.version>2.2.1</maven-project.version>
     <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
-    <maven-javadoc-plugin.version>3.5.0</maven-javadoc-plugin.version>
-    <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
+    <maven-javadoc-plugin.version>3.6.3</maven-javadoc-plugin.version>
+    <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
   </properties>
 
   <build>
